@@ -14,7 +14,7 @@
 a = int(input("Enter the number of rows: "))
 print("%"*a)
 for i in range(2,a-1):
-    b=i-1
-    c=(a-3)-(i-1)
-    print("%"+b*" "+"%"+c*" "+"%")
+    c=i-1
+    d = (a-1)-i-1
+    print("%"+(" "*c)+"%"+(d*" ")+"%")
 print("%"*a)
