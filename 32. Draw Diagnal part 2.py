@@ -12,9 +12,9 @@
 #
 # The square should have as many lines as the number was
 a = int(input("Enter the number of rows: "))
-for i in range(a):
-    if i == 0 or i ==a - 1:
-        print("%" * a)
-    else:
-       line = "%" + " " * (((a - 2))//2) + "%"+" " * (((a - 2))//2) + "%"
-       print(line)
+print("%"*a)
+for i in range(2,a-1):
+    b=i-1
+    c=(a-3)-(i-1)
+    print("%"+b*" "+"%"+c*" "+"%")
+print("%"*a)
